@@ -1,0 +1,47 @@
+#
+#  README
+#
+#       Young Geng, Rahul Verma and Angela Lin
+#        
+#       Program is based on the music player pymusic by Stephen Smally
+#
+#
+#       This program is free software; you can redistribute it and/or modify
+#       it under the terms of the GNU General Public License as published by
+#       the Free Software Foundation; either version 3 of the License, or
+#       (at your option) any later version.
+#       
+#       This program is distributed in the hope that it will be useful,
+#       but WITHOUT ANY WARRANTY; without even the implied warranty of
+#       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#       GNU General Public License for more details.
+#       
+#       You should have received a copy of the GNU General Public License
+#       along with this program; if not, write to the Free Software
+#       Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#       MA 02110-1301, USA.
+#
+
+INSTALL
+
+Open a terminal in this folder and run:
+
+$ sudo make install
+
+if you want to install it in another place you can use the DESTDIR argument
+
+$ sudo make install DESTDIR=dir_you_want_use
+
+but it's strongly unrecommended
+
+REMOVE
+
+if you have used the default destdir (sudo make install), simply use:
+
+$ sudo make clean
+
+if you have used the DESTDIR=dir_you_want_use:
+
+$ sudo make clean DESTDIR=dir_you_want_use
+
+don't forget to visit http://launchpad.net/pymusic to get updates and news, having fun!
